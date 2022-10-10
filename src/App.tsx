@@ -17,7 +17,11 @@ function App() {
 				<div className='flex items-center gap-2'>
 					<h1 className='font-bold text-xl'>Notifications</h1>
 					{unread > 0 && (
-						<span className='text-white bg-blue px-3 rounded'>{unread}</span>
+						<span
+							title='unread-badge'
+							className='text-white bg-blue px-3 rounded'>
+							{unread}
+						</span>
 					)}
 				</div>
 
