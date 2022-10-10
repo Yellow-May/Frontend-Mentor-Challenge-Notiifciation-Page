@@ -19,6 +19,10 @@ module.exports = {
       fontFamily: {
         main: ['Plus Jakarta Sans', 'sans-serif'],
       },
+      fontWeight: {
+        normal: 500,
+        bold: 800
+      }
     },
   },
   plugins: [],

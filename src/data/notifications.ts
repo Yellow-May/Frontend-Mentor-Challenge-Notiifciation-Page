@@ -1,7 +1,7 @@
 import user1 from 'assets/images/avatar-mark-webber.webp';
 import user2 from 'assets/images/avatar-angela-gray.webp';
 import user3 from 'assets/images/avatar-jacob-thompson.webp';
-import user4 from 'assets/images/avatar-rizky-hassanuddin.webp';
+import user4 from 'assets/images/avatar-rizky-hasanuddin.webp';
 import user5 from 'assets/images/avatar-kimberly-smith.webp';
 import user6 from 'assets/images/avatar-nathan-peterson.webp';
 import user7 from 'assets/images/avatar-anna-kim.webp';
@@ -47,7 +47,7 @@ const data = [
 		},
 		type: {
 			name: 'join/left',
-			text: 'jhas joined your group',
+			text: 'has joined your group',
 		},
 		target: {
 			text: 'Chess Club',
@@ -67,7 +67,7 @@ const data = [
 			text: 'sent you a private message',
 		},
 		target: {
-			text: `Hello, thansk for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.`,
+			text: `Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.`,
 			link: '',
 		},
 		status: 'read',
